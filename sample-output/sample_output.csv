@@ -1,0 +1,9 @@
+interface,ip_address,status,protocol,input_errors,output_errors,crc_errors,collisions,input_packets,output_packets,in_rate_bps,out_rate_bps,health
+GigabitEthernet0/0,10.0.0.1,up,up,0,0,0,0,1548293,1293847,52000,47000,HEALTHY
+GigabitEthernet0/1,10.0.1.1,up,up,152,0,48,0,982341,876543,45000,38000,WARNING
+GigabitEthernet0/2,10.0.2.1,up,up,0,0,0,0,2345678,1987654,98000,87000,HEALTHY
+GigabitEthernet0/3,unassigned,admin down,down,0,0,0,0,0,0,0,0,DOWN
+Serial0/0/0,172.16.0.1,up,up,0,37,0,5,456789,432100,1200,980,WARNING
+Serial0/0/1,172.16.1.1,up,up,0,0,0,0,234567,198765,1500,1400,HEALTHY
+Loopback0,1.1.1.1,up,up,0,0,0,0,0,12345,0,0,HEALTHY
+Loopback1,10.255.255.1,up,up,0,0,0,0,0,6789,0,0,HEALTHY
