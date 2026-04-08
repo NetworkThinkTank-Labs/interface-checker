@@ -1,0 +1,32 @@
+# Device Inventory File for Interface Checker
+# Add your network devices below
+
+devices:
+  - device_type: cisco_ios
+    host: 192.168.1.1
+    username: admin
+    password: admin123
+    # optional: secret for enable mode
+    # secret: enable123
+
+  - device_type: cisco_ios
+    host: 192.168.1.2
+    username: admin
+    password: admin123
+
+  - device_type: cisco_nxos
+    host: 192.168.1.10
+    username: admin
+    password: admin123
+
+  # Example: Arista EOS device
+  # - device_type: arista_eos
+  #   host: 192.168.1.20
+  #   username: admin
+  #   password: admin123
+
+  # Example: Juniper JunOS device
+  # - device_type: juniper_junos
+  #   host: 192.168.1.30
+  #   username: admin
+  #   password: admin123
