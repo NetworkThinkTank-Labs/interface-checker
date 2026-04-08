@@ -1,0 +1,48 @@
+====================================================================================================
+  INTERFACE CHECKER REPORT
+  Device: R1-CORE
+  Timestamp: 2026-04-08T14:32:15.482910
+====================================================================================================
+
+  SUMMARY: 8 interfaces | 5 Healthy | 2 Warnings | 1 Down
+----------------------------------------------------------------------------------------------------
+
+Interface                 IP Address         Status     Protocol   In Errors    Out Errors   CRC        Health    
+----------------------------------------------------------------------------------------------------
+GigabitEthernet0/0        10.0.0.1           up         up         0            0            0          HEALTHY   
+GigabitEthernet0/1        10.0.1.1           up         up         152          0            48         WARNING   
+GigabitEthernet0/2        10.0.2.1           up         up         0            0            0          HEALTHY   
+GigabitEthernet0/3        unassigned         admin down down       0            0            0          DOWN      
+Serial0/0/0               172.16.0.1         up         up         0            37           0          WARNING   
+Serial0/0/1               172.16.1.1         up         up         0            0            0          HEALTHY   
+Loopback0                 1.1.1.1            up         up         0            0            0          HEALTHY   
+Loopback1                 10.255.255.1       up         up         0            0            0          HEALTHY   
+
+====================================================================================================
+
+  INTERFACES WITH ERRORS (Detailed)
+----------------------------------------------------------------------------------------------------
+  Interface: GigabitEthernet0/1
+    Input Errors:  152
+    Output Errors: 0
+    CRC Errors:    48
+    Collisions:    0
+    Input Rate:    45000 bps
+    Output Rate:   38000 bps
+
+----------------------------------------------------------------------------------------------------
+  Interface: GigabitEthernet0/1
+    Input Errors:  152
+    Output Errors: 0
+    CRC Errors:    48
+    Collisions:    0
+    Input Rate:    45000 bps
+    Output Rate:   38000 bps
+
+  Interface: Serial0/0/0
+    Input Errors:  0
+    Output Errors: 37
+    CRC Errors:    0
+    Collisions:    5
+    Input Rate:    1200 bps
+    Output Rate:   980 bps
